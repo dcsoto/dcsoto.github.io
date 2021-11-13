@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello! I'm Daniela, a PhD candidate in the Integrative Genetics and Genomics Graduate Group at UC Davis, and a member of the [Dennis Lab](https://www.dennislab.org/). I was born in Santiago, Chile.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I'm an engineer turned bioinformatician, passionate about long-read sequencing, structural variation, great apes evolution, omics integration, and reproducible bioinformatics. I've been into digital drawing for several years and I'm open to opportunities to illustrate science-related topics and graphic design for conferences/symposiums.
 
-What else do you need?
+I would love to meet over coffee/tea to talk about long-reads, great apes, human evolution, reproducible bioinformatics, or Avatar The Last Airbender.
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+You can learn more about my research [here]({{ site.baseurl }}{% link research.md %})
