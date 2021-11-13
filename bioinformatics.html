@@ -3,17 +3,6 @@ layout: page
 title: Bioinformatics training
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
-    </li>
-  {% endfor %}
-</ul>
-
-
 {% for post in site.tags.bioinformatics %}
-  <li class="spaced">
     <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
-  </li>
 {% endfor %}
