@@ -1,8 +1,9 @@
 ---
 layout: post
 title: My essential toolbox for bioinformatics - an update
+subtitle: Conda and Snakemake
 show-avatar: false
-tags: [training, bioinformatics]
+tags: [bioinformatics]
 permalink: /2020/03/31/bioinformatics-toolbox-update/
 ---
 
