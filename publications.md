@@ -11,7 +11,7 @@ title: Publications
 
 # Peer-reviewed
 
-* Eshel G, Araus V, Undurraga S, Soto DC, Moraga C, Montecinos A, et al. Plant ecological genomics at the limits of life in the Atacama Desert. Proc Natl Acad Sci U S A. 2021;118. doi:10.1073/pnas.2101177118
+* Eshel G, Araus V, Undurraga S, **Soto DC**, Moraga C, Montecinos A, et al. Plant ecological genomics at the limits of life in the Atacama Desert. Proc Natl Acad Sci U S A. 2021;118. doi:10.1073/pnas.2101177118
 * Shew CJ, Carmona-Mora P, **Soto DC**, Mastoras M, Roberts E, Rosas J, et al. Diverse molecular mechanisms contribute to differential expression of human duplicated genes. Mol Biol Evol. 2021. doi:10.1093/molbev/msab131
 * Carrasco‐Puga G, Díaz FP, **Soto DC**, Hernández‐Castro C, Contreras‐López O, Maldonado A, et al. Revealing hidden plant diversity in arid environments. Ecography. 2021;44: 98–111.
 * Miga KH, Koren S, Rhie A, Vollger MR, Gershman A, Bzikadze A, et al. Telomere-to-telomere assembly of a complete human X chromosome. Nature. 2020. doi:10.1038/s41586-020-2547-7
