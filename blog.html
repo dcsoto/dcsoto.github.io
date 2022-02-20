@@ -3,7 +3,17 @@ layout: page
 title: Blog posts
 ---
 
-# Bioinformatics
+<h2>Bioinformatics</h2>
+
+<ul>
+  {% for post in site.tags.bioinformatics %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Illustration</h2>
 
 <ul>
   {% for post in site.tags.illustration %}
@@ -13,13 +23,12 @@ title: Blog posts
   {% endfor %}
 </ul>
 
-# Scientific Illustration
+<h2>Academia</h2>
 
 <ul>
-  {% for post in site.tags.illustration %}
+  {% for post in site.tags.academia %}
     <li class="spaced">
       <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
     </li>
   {% endfor %}
 </ul>
-

@@ -18,8 +18,6 @@ navbar-links:
   Research: "research"
   Publications: "publications"
   Blog: "blog"
-  #Bioinformatics: "bioinformatics"
-  #Illustration: "illustration"
 
 # --- Logo --- #
 
@@ -227,3 +225,4 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+exclude: vendor
