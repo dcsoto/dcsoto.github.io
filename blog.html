@@ -1,0 +1,25 @@
+---
+layout: page
+title: Blog posts
+---
+
+# Bioinformatics
+
+<ul>
+  {% for post in site.tags.illustration %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+    </li>
+  {% endfor %}
+</ul>
+
+# Scientific Illustration
+
+<ul>
+  {% for post in site.tags.illustration %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+    </li>
+  {% endfor %}
+</ul>
+

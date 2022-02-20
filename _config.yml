@@ -17,8 +17,9 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Publications: "publications"
-  Bioinformatics: "bioinformatics"
-  Illustration: "illustration"
+  Blog: "blog"
+  #Bioinformatics: "bioinformatics"
+  #Illustration: "illustration"
 
 # --- Logo --- #
 
