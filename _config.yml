@@ -16,7 +16,7 @@ author: Daniela C. Soto
 navbar-links:
   About Me:
     - Quick Bio: "aboutme"
-    - CV: "CV"
+    - CV: "/assets/pdf/CV.pdf"
   Research:
     - Main: "research"
     - CompBio: "compbio"
