@@ -11,7 +11,7 @@ I have been working as a bioinformatician for ~8 years, but for some reason I ne
 
 And I found it to be a bit complicated if you don't know what to do. So, here it is. A quick little guideline to set up and use Blast in your local cluster.
 
-Shout-out to ![this](https://danielbruzzese.wordpress.com/) blog for setting me on the right track.
+Shout-out to [this](https://danielbruzzese.wordpress.com/) blog for setting me on the right track.
 
 ## Step 0: Load your module
 
