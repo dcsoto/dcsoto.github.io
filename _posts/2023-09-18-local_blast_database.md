@@ -9,11 +9,9 @@ permalink: /2023/09/18/local_blast_database/
 
 I have been working as a bioinformatician for ~8 years, but for some reason I never had to set up my own local Blast database. Until now. 
 
-And I found it to be either really easy if you know what to do but harder to figure out that it should.
+And I found it to be a bit complicated if you don't know what to do. So, here it is. A quick little guideline to set up and use Blast in your local cluster.
 
-Shout-out to this blog for setting me on the right track: https://danielbruzzese.wordpress.com/
-
-So, here it is. A quick little guideline to set up and use Blast in your local cluster.
+Shout-out to ![this](https://danielbruzzese.wordpress.com/) blog for setting me on the right track.
 
 ## Step 0: Load your module
 
