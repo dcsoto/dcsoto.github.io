@@ -288,12 +288,12 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
         <td>Subject Scientific Name(s), separated by a &#39;;&#39;</td>
     </tr>
     <tr>
-        <td>scomnames </td>
+        <td>scomnames</td>
         <td>Subject Common Name(s), separated by a &#39;;&#39;</td>
     </tr>
     <tr>
-        <td>sblastname</td>
-        <td>s Subject Blast Name(s), separated by a &#39;;&#39;   (in alphabetical order)</td>
+        <td>sblastnames</td>
+        <td>Subject Blast Name(s), separated by a &#39;;&#39;   (in alphabetical order)</td>
     </tr>
     <tr>
         <td>sskingdoms</td>
