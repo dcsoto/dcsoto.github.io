@@ -74,6 +74,69 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 <details>
   <summary>Default columns names for format 6</summary>
 
+<table>
+    <tr>
+        <td>1</td>
+        <td> qseqid  </td>
+        <td> query or source (gene) sequence id</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td> sseqid  </td>
+        <td> subject or target (reference genome) sequence id</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td> pident  </td>
+        <td> percentage of identical positions</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td> length  </td>
+        <td> alignment length (sequence overlap)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td> mismatch</td>
+        <td> number of mismatches</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td> gapopen </td>
+        <td> number of gap openings</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td> qstart  </td>
+        <td> start of alignment in query</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td> qend    </td>
+        <td> end of alignment in query</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td> sstart  </td>
+        <td> start of alignment in subject</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>send     </td>
+        <td>end of alignment in subject</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>evalue   </td>
+        <td>expect value</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>bitscore </td>
+        <td>bit score</td>
+    </tr>
+</table>
+
 <p>
 | #  | colnames | description                                       |
 | -- | ---------| ------------------------------------------------- |
