@@ -52,7 +52,7 @@ tar -zxvf taxdb.tar.gz
 
 Two additional files should now be in your database folder: `taxdb.bti` and `taxdb.btd`.
 
-## Step 3: Let's blast
+## Step 3: Let's Blast
 
 We are ready to actually Blast. Let's go to our working directory.
 
@@ -61,10 +61,14 @@ To use our local database, we need to add the path + the prefix of our files. In
 /PATH/TO/my_blastdb/nt
 ```
 
-To obtain the species of our subject sequences, we need to manually request the `staxids` (Subject Tax IDs). Blast formats 6, 7, and 10 can be customize to add `staxids`.
+Also, to obtain the species of our subject sequences, we need to manually request the `staxids` (Subject Tax IDs). Blast formats 6, 7, and 10 can be customize to add `staxids`.
+
+Addressing these two points, we have the following command:
 
 ```bash
 blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.out -outfmt “7 qseqid qlen slen qcovhsp sseqid staxids bitscore score evalue pident qstart qend sstart send”
 ```
+
+(Here, I am also requesting a bunch of other parameters, like query length, subject length, e-value, etc, etc.)
 
 And that's it. Enjoy Blasting!
