@@ -72,7 +72,7 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 (Here, I am requesting default parameters + subject's taxonomy id, scientific name, and common name.)
 
 <details>
-  <summary>Default columns names for format 6</summary>
+  <summary>Default column names for format 6</summary>
 
 <table>
     <tr>
