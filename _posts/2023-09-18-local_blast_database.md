@@ -74,6 +74,7 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 <details>
   <summary>Default columns names for format 6</summary>
 
+<p>
 | #  | colnames | description                                       |
 | -- | ---------| ------------------------------------------------- |
 | 1  | qseqid   |  query or source (gene) sequence id               |
@@ -88,12 +89,14 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 | 10 | send     | end of alignment in subject                       |
 | 11 | evalue   | expect value                                      |
 | 12 | bitscore | bit score                                         |
+</p>
 
 </details>
 
 <details>
   <summary>Additional columns for custom format</summary>
 
+<p>
 | colnames   | description                                                                |
 | ---------- | -------------------------------------------------------------------------- |
 | qseqid     | Query Seq-id                                                               |
@@ -140,6 +143,7 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 | sstrand    | Subject Strand                                                             |
 | qcovs      | Query Coverage Per Subject                                                 |
 | qcovhsp    | Query Coverage Per HSP                                                     |
+</p>
 
 </details>
 
