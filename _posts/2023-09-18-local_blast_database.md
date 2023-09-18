@@ -323,4 +323,6 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
 
 </details>
 
+Original [source](https://www.metagenomics.wiki/tools/blast/blastn-output-format-6).
+
 And that's it. Enjoy Blasting!
