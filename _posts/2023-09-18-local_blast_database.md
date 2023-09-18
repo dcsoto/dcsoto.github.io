@@ -137,76 +137,189 @@ blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.ou
     </tr>
 </table>
 
-<p>
-| #  | colnames | description                                       |
-| -- | ---------| ------------------------------------------------- |
-| 1  | qseqid   |  query or source (gene) sequence id               |
-| 2  | sseqid   |  subject or target (reference genome) sequence id |
-| 3  | pident   |  percentage of identical positions                |
-| 4  | length   |  alignment length (sequence overlap)              |
-| 5  | mismatch |  number of mismatches                             |
-| 6  | gapopen  |  number of gap openings                           |
-| 7  | qstart   |  start of alignment in query                      |
-| 8  | qend     |  end of alignment in query                        |
-| 9  | sstart   |  start of alignment in subject                    |
-| 10 | send     | end of alignment in subject                       |
-| 11 | evalue   | expect value                                      |
-| 12 | bitscore | bit score                                         |
-</p>
-
 </details>
 
 <details>
   <summary>Additional columns for custom format</summary>
 
-<p>
-| colnames   | description                                                                |
-| ---------- | -------------------------------------------------------------------------- |
-| qseqid     | Query Seq-id                                                               |
-| qgi        | Query GI                                                                   |
-| qacc       | Query accesion                                                             |
-| qaccver    | Query accesion.version                                                     |
-| qlen       | Query sequence length                                                      |
-| sseqid     | Subject Seq-id                                                             |
-| sallseqid  | All subject Seq-id(s), separated by a ';'                                  |
-| sgi        | Subject GI                                                                 |
-| sallgi     | All subject GIs                                                            |
-| sacc       | Subject accession                                                          |
-| saccver    | Subject accession.version                                                  |
-| sallacc    | All subject accessions                                                     |
-| slen       | Subject sequence length                                                    |
-| qstart     | Start of alignment in query                                                |
-| qend       | End of alignment in query                                                  |
-| sstart     | Start of alignment in subject                                              |
-| send       | End of alignment in subject                                                |
-| qseq       | Aligned part of query sequence                                             |
-| sseq       | Aligned part of subject sequence                                           |
-| evalue     | Expect value                                                               |
-| bitscore   | Bit score                                                                  |
-| score      | Raw score                                                                  |
-| length     | Alignment length                                                           |
-| pident     | Percentage of identical matches                                            |
-| nident     | Number of identical matches                                                |
-| mismatch   | Number of mismatches                                                       |
-| positive   | Number of positive-scoring matches                                         |
-| gapopen    | Number of gap openings                                                     |
-| gaps       | Total number of gaps                                                       |
-| ppos       | Percentage of positive-scoring matches                                     |
-| frames     | Query and subject frames separated by a '/'                                |
-| qframe     | Query frame                                                                |
-| sframe     | Subject frame                                                              |
-| btop       | Blast traceback operations (BTOP)                                          |
-| staxids    | Subject Taxonomy ID(s), separated by a ';'                                 |
-| sscinames  | Subject Scientific Name(s), separated by a ';'                             |
-| scomnames  | Subject Common Name(s), separated by a ';'                                 |
-| sblastname | s Subject Blast Name(s), separated by a ';'   (in alphabetical order)      |
-| sskingdoms |   Subject Super Kingdom(s), separated by a ';'     (in alphabetical order) |
-| stitle     |   Subject Title                                                            |
-| salltitles |   All Subject Title(s), separated by a '<>'                                |
-| sstrand    | Subject Strand                                                             |
-| qcovs      | Query Coverage Per Subject                                                 |
-| qcovhsp    | Query Coverage Per HSP                                                     |
-</p>
+<table>
+    <tr>
+        <td>qseqid    </td>
+        <td>Query Seq-id</td>
+    </tr>
+    <tr>
+        <td>qgi       </td>
+        <td>Query GI</td>
+    </tr>
+    <tr>
+        <td>qacc      </td>
+        <td>Query accesion</td>
+    </tr>
+    <tr>
+        <td>qaccver   </td>
+        <td>Query accesion.version</td>
+    </tr>
+    <tr>
+        <td>qlen      </td>
+        <td>Query sequence length</td>
+    </tr>
+    <tr>
+        <td>sseqid    </td>
+        <td>Subject Seq-id</td>
+    </tr>
+    <tr>
+        <td>sallseqid </td>
+        <td>All subject Seq-id(s), separated by a &#39;;&#39;</td>
+    </tr>
+    <tr>
+        <td>sgi       </td>
+        <td>Subject GI</td>
+    </tr>
+    <tr>
+        <td>sallgi    </td>
+        <td>All subject GIs</td>
+    </tr>
+    <tr>
+        <td>sacc      </td>
+        <td>Subject accession</td>
+    </tr>
+    <tr>
+        <td>saccver   </td>
+        <td>Subject accession.version</td>
+    </tr>
+    <tr>
+        <td>sallacc   </td>
+        <td>All subject accessions</td>
+    </tr>
+    <tr>
+        <td>slen      </td>
+        <td>Subject sequence length</td>
+    </tr>
+    <tr>
+        <td>qstart    </td>
+        <td>Start of alignment in query</td>
+    </tr>
+    <tr>
+        <td>qend      </td>
+        <td>End of alignment in query</td>
+    </tr>
+    <tr>
+        <td>sstart    </td>
+        <td>Start of alignment in subject</td>
+    </tr>
+    <tr>
+        <td>send      </td>
+        <td>End of alignment in subject</td>
+    </tr>
+    <tr>
+        <td>qseq      </td>
+        <td>Aligned part of query sequence</td>
+    </tr>
+    <tr>
+        <td>sseq      </td>
+        <td>Aligned part of subject sequence</td>
+    </tr>
+    <tr>
+        <td>evalue    </td>
+        <td>Expect value</td>
+    </tr>
+    <tr>
+        <td>bitscore  </td>
+        <td>Bit score</td>
+    </tr>
+    <tr>
+        <td>score     </td>
+        <td>Raw score</td>
+    </tr>
+    <tr>
+        <td>length    </td>
+        <td>Alignment length</td>
+    </tr>
+    <tr>
+        <td>pident    </td>
+        <td>Percentage of identical matches</td>
+    </tr>
+    <tr>
+        <td>nident    </td>
+        <td>Number of identical matches</td>
+    </tr>
+    <tr>
+        <td>mismatch  </td>
+        <td>Number of mismatches</td>
+    </tr>
+    <tr>
+        <td>positive  </td>
+        <td>Number of positive-scoring matches</td>
+    </tr>
+    <tr>
+        <td>gapopen   </td>
+        <td>Number of gap openings</td>
+    </tr>
+    <tr>
+        <td>gaps      </td>
+        <td>Total number of gaps</td>
+    </tr>
+    <tr>
+        <td>ppos      </td>
+        <td>Percentage of positive-scoring matches</td>
+    </tr>
+    <tr>
+        <td>frames    </td>
+        <td>Query and subject frames separated by a &#39;/&#39;</td>
+    </tr>
+    <tr>
+        <td>qframe    </td>
+        <td>Query frame</td>
+    </tr>
+    <tr>
+        <td>sframe    </td>
+        <td>Subject frame</td>
+    </tr>
+    <tr>
+        <td>btop      </td>
+        <td>Blast traceback operations (BTOP)</td>
+    </tr>
+    <tr>
+        <td>staxids   </td>
+        <td>Subject Taxonomy ID(s), separated by a &#39;;&#39;</td>
+    </tr>
+    <tr>
+        <td>sscinames </td>
+        <td>Subject Scientific Name(s), separated by a &#39;;&#39;</td>
+    </tr>
+    <tr>
+        <td>scomnames </td>
+        <td>Subject Common Name(s), separated by a &#39;;&#39;</td>
+    </tr>
+    <tr>
+        <td>sblastname</td>
+        <td>s Subject Blast Name(s), separated by a &#39;;&#39;   (in alphabetical order)</td>
+    </tr>
+    <tr>
+        <td>sskingdoms</td>
+        <td>  Subject Super Kingdom(s), separated by a &#39;;&#39;     (in alphabetical order)</td>
+    </tr>
+    <tr>
+        <td>stitle   </td>
+        <td>  Subject Title</td>
+    </tr>
+    <tr>
+        <td>salltitles</td>
+        <td>  All Subject Title(s), separated by a &#39;&lt;&gt;&#39;</td>
+    </tr>
+    <tr>
+        <td>sstrand   </td>
+        <td>Subject Strand</td>
+    </tr>
+    <tr>
+        <td>qcovs     </td>
+        <td>Query Coverage Per Subject</td>
+    </tr>
+    <tr>
+        <td>qcovhsp   </td>
+        <td>Query Coverage Per HSP</td>
+    </tr>
+</table>
 
 </details>
 
