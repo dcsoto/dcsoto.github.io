@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to set up your local BLAST database
+title: How to set up your local BLAST nucleotide database
 subtitle: Bioinformatics diaries No. 1
 show-avatar: false
 tags: [bioinformatics]
 permalink: /2023/09/18/local_blast_database/
 ---
 
-I have been working as a bioinformatician for ~8 years, but for some reason I never had to set up my own local Blast database. Until now. 
+I have been working as a bioinformatician for ~8 years, but for some reason I never had to set up my own local nucleotide Blast database. Until now. 
 
 And I found it to be a bit complicated if you don't know what to do. So, here it is. A quick little guideline to set up and use Blast in your local cluster.
 
