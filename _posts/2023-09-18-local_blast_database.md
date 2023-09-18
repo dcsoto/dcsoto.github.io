@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to set up your local BLAST database
-subtitle: Bioinformatics diaries #1
+subtitle: Bioinformatics diaries No. 1
 show-avatar: false
 tags: [bioinformatics]
 permalink: /2023/09/18/local_blast_database/
