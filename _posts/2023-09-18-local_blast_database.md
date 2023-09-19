@@ -66,7 +66,7 @@ Also, to obtain the species of our subject sequences, we need to manually reques
 Addressing these two points, we have the following command:
 
 ```bash
-blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.out -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames scomnames”
+blastn -num_threads 34 -db /PATH/TO/my_blastdb/nt -query input.fa -out output.out -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids sscinames scomnames"
 ```
 
 (Here, I am requesting default parameters + subject's taxonomy id, scientific name, and common name.)
