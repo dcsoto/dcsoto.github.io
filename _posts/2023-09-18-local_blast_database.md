@@ -30,7 +30,7 @@ mkdir -p my_blastdb
 Let's get into our new folder:
 
 ```bash
-cd my_blastdb
+cd /PATH/TO/my_blastdb
 ```
 
 Here, we are downloading the nucleotide database and asking the software to automatically decompress the files.
@@ -46,6 +46,7 @@ A bunch of files starting with `nt.XX.YY` should be in your database folder.
 To add taxonomy information, we need to manually download the taxonomy database and decompress.
 
 ```bash
+cd /PATH/TO/my_blastdb
 update_blastdb.pl taxdb
 tar -zxvf taxdb.tar.gz
 ```
@@ -59,6 +60,11 @@ We are ready to actually Blast. Let's go to our working directory.
 To use our local database, we need to add the path + the prefix of our files. In my example:
 ```
 /PATH/TO/my_blastdb/nt
+```
+
+To use our taxonomy database, we need to export the path as follows:
+```bash
+export BLASTDB="/PATH/TO/my_blastdb" 
 ```
 
 Also, to obtain the species of our subject sequences, we need to manually request the `staxids` (Subject Tax IDs). Blast formats 6, 7, and 10 can be customize to add `staxids`.
