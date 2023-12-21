@@ -3,8 +3,8 @@ layout: page
 title: About me
 ---
 
-I am a Postdoctoral Scholar in [Dr. Megan Dennis's Lab](https://www.dennislab.org/) at UC Davis. 
+I am researcher and bioinformatician in human genomics and neurogenetics. My research interests include elucidating ape- and human-specific genetic changes that led to our complex brain structure, behaviors, and neurodiversity.
 
-I have a background in biochemical engineering and ten years of research experience, of which seven have been in the field of bioinformatics and computational biology. During my PhD dissertation, I studied complex genomic variation in humans and other great apes, and its role in primate-specific traits and diseases, leveraging short- and long-read sequencing technologies and multi-omics data. My postodoctoral research involves the study structural variation in humans from diverse populations. Previously, I worked as a bioinformatics research assistant at Pontificia Universidad Católica de Chile in plant transcriptomics.
+Currently, I am postdoctoral scholar in the lab of [Dr. Jonathan Flint](https://bri.ucla.edu/people/jonathan-flint/), UCLA, where I am studying the impact of genes in behavior using single-cell multi-omics data in mouse and humans. Previously, I was a graduate student researcher and postdoctoral scholar in the lab of [Dr. Megan Dennis's Lab](https://www.dennislab.org/) at UC Davis, where I studied the role of structural variation in brain evolution and neurodevelopmental disorders using both short- and long-read sequencing technologies. I also worked as a bioinformatics research assistant at Pontificia Universidad Católica de Chile in the Plants Systems Biology Lab.
 
-I was born in Santiago, Chile. My hobbies include digital drawing, playing all sort of string instruments, singing, reading, writing, taking care of my plants, and going on long walks/hikes. My ultimate goal is to unravel the genetics bases of what makes us humans. I would love to meet over coffee/tea to talk about science and reproducible bioinformatics research.
+I was born in Santiago, Chile.
