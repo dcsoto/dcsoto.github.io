@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My research
+title: Research
 ---
 
 > _"Anything becomes interesting if you look at it long enough."_ ― Gustave Flaubert
