@@ -17,9 +17,7 @@ navbar-links:
   About Me:
     - Quick Bio: "aboutme"
     - CV: "/assets/pdf/CV.pdf"
-  Research:
-    - Main: "research"
-    - CompBio: "compbio"
+  Research: "research"
   Publications: "publications"
   Press: "press"
   Blog: "blog"
