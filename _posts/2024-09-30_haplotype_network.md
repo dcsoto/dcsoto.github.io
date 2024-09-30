@@ -154,10 +154,10 @@ Now you can construct the network using the algorithm of your choice, clicking o
 
 ![SS7](https://file.notion.so/f/f/63edd847-b6c7-4bf7-a7e9-f40b620bd6da/716583c6-954c-4fc2-bd5b-78bfc4aa4cd0/SS7.png?table=block&id=11153002-f8ee-8084-9e5c-ecf444ade5b9&spaceId=63edd847-b6c7-4bf7-a7e9-f40b620bd6da&expirationTimestamp=1727827200000&signature=3QBB4OEzM1jybDxffKkCwtwpouaffA6jekaYuXhn5AE&downloadName=SS7.png)
 
-To color the network according to the defined traits, you will need to click on the dots icon on the menu and choose a color palette.
+To color the network according to the defined traits, click on the dots icon on the menu and choose a color palette.
 
 ![SS8](https://file.notion.so/f/f/63edd847-b6c7-4bf7-a7e9-f40b620bd6da/d3f9dc81-dd2a-4745-9696-06238aa29be4/SS8.png?table=block&id=11153002-f8ee-808b-b595-fd924bb77c56&spaceId=63edd847-b6c7-4bf7-a7e9-f40b620bd6da&expirationTimestamp=1727827200000&signature=_yEtiQas_Y5amwZlNAOqXkg9m_9tMcEeLtkLw5eM_Is&downloadName=SS8.png)
 
-You can customize trait colors, vertex and edge color and size, as well as labels in the "Edit" tab.
+You can customize trait colors, vertex and edge colors and sizes, as well as labels in the "Edit" tab.
 
-And that's it! Now the you can analyze your network to assess signatures of selection.
+And that's it! Now you can analyze your haplotype network to assess signatures of selection.
