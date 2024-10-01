@@ -8,7 +8,7 @@ title: Blog entries
 <ul>
   {% for post in site.tags.bioinformatics %}
     <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y/%m/%d" }}
     </li>
   {% endfor %}
 </ul>
@@ -18,7 +18,7 @@ title: Blog entries
 <ul>
   {% for post in site.tags.illustration %}
     <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y/%m/%d" }}
     </li>
   {% endfor %}
 </ul>
@@ -28,7 +28,7 @@ title: Blog entries
 <ul>
   {% for post in site.tags.academia %}
     <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y/%m/%d" }}
     </li>
   {% endfor %}
 </ul>
