@@ -58,7 +58,7 @@ cat *.locus.fa > network_locus.fa
 
 # Step 2: Align nucleotide sequences
 
-Once corresponding nucleotide sequences are together in a single FASTA file, we need to align them using a multiple DNA sequence alignment algorithm. There are multiple options for this, but I like to use MUSCLE software, which can be run from the command line, in web applications, or desktop a applications. Here I will show you how to run it in the desktop application.
+Once nucleotide sequences are in a single FASTA file, we need to align them using a multiple DNA sequence alignment algorithm. There are multiple options for this, but I like to use MUSCLE software, which can be run from the command line, web applications, or desktop applications. Here I will show you how to run it in the desktop application.
 
 First, you need to download and install MEGA software from their [official website](https://www.megasoftware.net/). After you have installed it, follow these steps.
 
@@ -78,7 +78,7 @@ After the MUSCLE process is done, export the alignment file in **NEXUS format**,
 
 ![SS4](https://file.notion.so/f/f/63edd847-b6c7-4bf7-a7e9-f40b620bd6da/be6fe5f0-eac3-4be7-8986-8efe8a822520/SS4.png?table=block&id=11153002-f8ee-8091-80d3-d5d5a2f6e9d5&spaceId=63edd847-b6c7-4bf7-a7e9-f40b620bd6da&expirationTimestamp=1727827200000&signature=nIvgEPukOQS7H_xRJWle_jJkKpSzY7vyz67Dxxrx6z0&downloadName=SS4.png)
 
-# Step 3: Add traits information
+# Step 3: Add trait information
 
 The trickiest part of building the network was to figure out how to display the sample ancestry and/or trait information. Thank you to Engy T. Megahed's for answering this question in [this thread](https://www.researchgate.net/post/How-to-insert-traits-and-coordinates-in-PopART).
 
@@ -132,21 +132,21 @@ END;
 
 In this example, we are adding five continental ancestries: AFR, EUR, EAS, SAS, and AMR. The total number of ancestries/traits was defined as "Dimensions NTRAITS=5". We also defined the labels after "TraitLabels", separated by space.
 
-For each sample/haplotype, the ancestry was set followign the order of "TraitLabels" as "1" if true and 0 if false. In this example, Sample_X is from AFR ancestry, and sample_Y is from EUR ancestry.
+For each sample/haplotype, the ancestry was set following the order of "TraitLabels," where "1" is true and 0 is false. In this example, Sample_X is from AFR ancestry, and sample_Y is from EUR ancestry.
 
 Finally, save your modified NEXUS file.
 
 # Step 4: Load alignment file in PopArt
 
-Once having a correctly formatted the NEXUS file, network construction should be really straight forward with PopArt.
+Once having a correctly formatted NEXUS file, network construction should be straight forward with PopArt.
 
-Download and install PopArt following the instructions from their [official website](https://popart.maths.otago.ac.nz/download/). We need to load our modified NEXUS file clicking on the "NEXUS" button.
+Download and install PopArt following the instructions from their [official website](https://popart.maths.otago.ac.nz/download/). We need to load our modified NEXUS file clicking on the "NEX" button.
 
 ![SS5](https://file.notion.so/f/f/63edd847-b6c7-4bf7-a7e9-f40b620bd6da/6424b4be-5bc8-4adb-9483-fa90335552c8/SS5.png?table=block&id=11153002-f8ee-8093-8744-e628eb191916&spaceId=63edd847-b6c7-4bf7-a7e9-f40b620bd6da&expirationTimestamp=1727827200000&signature=TZ4UckEfKn_MCdq6NUujNlhrz26rrRufKedt_akuMKc&downloadName=SS5.png)
 
 > If you are unibale to load your file, make sure "Files of type:" option at the bottom of the window is set to "All Files(*)."
 
-After loading your NEXUS file, the information of traits and nucleotide sequences will be displayed on "Traits" and "Alignments" tabs.
+After loading your NEXUS file, the information of traits and nucleotide sequences will be displayed on "Traits" and "Alignment" tabs.
 
 ![SS6](https://file.notion.so/f/f/63edd847-b6c7-4bf7-a7e9-f40b620bd6da/84bc9a3c-4fab-4407-b273-d5fab19295a1/SS6.png?table=block&id=11153002-f8ee-80dd-89fe-cc7a3f285368&spaceId=63edd847-b6c7-4bf7-a7e9-f40b620bd6da&expirationTimestamp=1727827200000&signature=yGbgMIz-sDJDVsO1mvpic-CB29gXNSx89NtNmwvH0SQ&downloadName=SS6.png)
 
