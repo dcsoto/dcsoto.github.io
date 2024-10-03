@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f5f205c-243a-49d4-9e91-c35aec38ddb3)---
+---
 layout: post
 title: Step-by-step tutorial to construct haplotype networks with PopArt
 subtitle: Bioinformatics diaries No. 2 
