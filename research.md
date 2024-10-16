@@ -7,8 +7,6 @@ title: Research
 
 > _"Nearly everything is really interesting if you go into it deeply enough."_ ― Richard Feynman
 
-![](assets/img/404.jpg)
-
 My research focuses on elucidating genetic and epigenetic changes contributing to human brain evolution and neuropsychiatric disease risk. To do so, I integrate human, comparative, and functional genomic approches, across humans and non-human primates. My current research areas include:
 
 1. Genetic and epigenetic changes contributing to human brain evolution
