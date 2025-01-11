@@ -1,0 +1,34 @@
+---
+layout: page
+title: Blog entries
+---
+
+<h2>Bioinformatics</h2>
+
+<ul>
+  {% for post in site.tags.bioinformatics %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Illustration</h2>
+
+<ul>
+  {% for post in site.tags.illustration %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Academia</h2>
+
+<ul>
+  {% for post in site.tags.academia %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
