@@ -3,8 +3,10 @@ layout: page
 title: About me
 ---
 
-I am researcher and bioinformatician in human genomics and neurogenetics. My research interests include elucidating ape- and human-specific genetic changes that led to our complex brain structure, behaviors, and neurodiversity.
+I am a researcher and bioinformatician specializing in human genomics and neurogenetics. My research interests focus on elucidating ape- and human-specific genetic and epigenetic changes that have contributed to our complex brain structure, behaviors, and neurodiversity.
 
-Currently, I am postdoctoral scholar in the lab of [Dr. Jonathan Flint](https://bri.ucla.edu/people/jonathan-flint/), UCLA, where I am studying the impact of genes on behavior using single-cell multi-omics data in mouse. Previously, I was a graduate student researcher and postdoctoral scholar in the lab of [Dr. Megan Dennis](https://www.dennislab.org/) at UC Davis, where I studied the role of structural variation in brain evolution and neurodevelopmental disorders using both short- and long-read sequencing technologies. I also worked as a bioinformatics research assistant at Pontificia Universidad Católica de Chile in the Plants Systems Biology Lab.
+Currently, I am a postdoctoral scholar at UCSB, working under the mentorship of [Dr. Soojin Yi](https://yilab.eemb.ucsb.edu/) (UCSB) and co-mentorship of [Dr. Kirk Lohmueller](https://lohmueller.eeb.ucla.edu/) (UCLA). I am also an HHMI Hanna Gray Fellow. My research explores human-specific forms of messenger RNA in the brain and investigates differences in gene regulation between humans and other primates.
 
-I was born in Santiago, Chile. Currently, I live in California, USA, with my husband.
+Previously, I worked as a postdoctoral scholar in Dr. Jonathan Flint’s lab at UCLA, where I studied the genetic underpinnings of behavior using single-cell multi-omics data in mouse models. I also served as a graduate student researcher and later a postdoctoral scholar in [Dr. Megan Dennis’s lab](https://www.dennislab.org/) at UC Davis, investigating the role of structural variation in brain evolution and neurodevelopmental disorders through both short- and long-read sequencing technologies. Prior to that, I was a bioinformatics research assistant in the Plant Systems Biology Lab at Pontificia Universidad Católica de Chile under the supervision of Dr. Rodrigo Gutiérrez.
+
+I was born in Santiago, Chile, and I currently live in California, USA, with my husband.
