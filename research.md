@@ -23,7 +23,7 @@ To fully understand human evolution, comparative approaches across the great ape
 
 * **Soto DC**†, Uribe-Salazar JM†, Shew CJ†, Sekar A, McGinty SP, Dennis MY. Genomic structural variation: A complex but important driver of human evolution. Am J Biol Anthropol. 2023. doi:10.1002/ajpa.24713.
 * **Soto DC**†, Shew CJ†, Mastoras M, Schmidt JM, Sahasrabudhe R, Kaya G, et al. Identification of Structural Variation in Chimpanzees Using Optical Mapping and Nanopore Sequencing. Genes. 2020;11: 276.
-* Ostridge HJ, Fontsere C, Lizano E, **Soto DC**, Schmidt JM, Saxena V, et al. Local genetic adaptation to habitat in wild chimpanzees. bioRxiv. 2024. p. 2024.07.09.601734. doi:10.1101/2024.07.09.601734
+* Ostridge HJ, Fontsere C, Lizano E, **Soto DC**, Schmidt JM, Saxena V, et al. Local genetic adaptation to habitat in wild chimpanzees. Science. 2025;387: eadn7954. doi:10.1126/science.adn7954
 
 **(3) The genetics of neuropsychiatric disorders**
 
