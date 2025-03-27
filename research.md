@@ -3,9 +3,10 @@ layout: page
 title: Research
 ---
 
-> _"Anything becomes interesting if you look at it long enough."_ ― Gustave Flaubert
+> * _"Anything becomes interesting if you look at it long enough."_ ― Gustave Flaubert
+> * _"Nearly everything is really interesting if you go into it deeply enough."_ ― Richard Feynman
 
-> _"Nearly everything is really interesting if you go into it deeply enough."_ ― Richard Feynman
+_**I study what makes the human brain unique by comparing it to the brains of non-human primates, uncovering genetic and epigenetic changes that shaped our evolution and may reveal why we're vulnerable to neuropsychiatric disorders.**_
 
 My research focuses on elucidating genetic and epigenetic changes contributing to human brain evolution and neuropsychiatric disease risk. To do so, I integrate human genetics with population, comparative, and functional genomic approches, across humans and non-human primates. My current research areas include:
 
