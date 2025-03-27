@@ -83,7 +83,7 @@ blockquote {
   color: var(--mid-col);
   font-style: italic;
   border-left: 10px solid #ccc;
-  padding-left: 1em;
+  padding-left: 0.5em;
   margin-left: 0;
   margin-right: 0;
   background-color: #f9f9f9;
