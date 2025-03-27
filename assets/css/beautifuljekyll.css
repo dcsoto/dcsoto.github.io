@@ -82,7 +82,7 @@ a:focus {
 blockquote {
   color: var(--mid-col);
   font-style: italic;
-  border-left: 4px solid #ccc;
+  border-left: 10px solid #ccc;
   padding-left: 1em;
   margin-left: 0;
   margin-right: 0;
