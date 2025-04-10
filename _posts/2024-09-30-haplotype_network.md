@@ -64,19 +64,19 @@ First, you need to download and install MEGA software from their [official websi
 
 First, load your FASTA file in the software, called `network_locus.fa` in this tutorial. Go to File > Open A File/Session and select "Align" in the pop-up window. The file nucleotide sequences will be displayed on the screen as follows:
 
-![SS1](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS1.png?raw=true)
+![SS1](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS1.png?raw=true)
 
 Sequences need to be aligned using the MUSCLE algorithm. Press the muscle icon on the menu and select "Align DNA". A pop-up window will ask if you want to select all sequences. Say "OK".
 
-![SS2](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS2.png?raw=true)
+![SS2](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS2.png?raw=true)
 
 Now you need to select the parameters for the MUSCLE alignment. I recommend using the defaults unless you have a good reason to change the parameters. The only parameter I change to make the process faster is the number of "Max Iterations". According to [MUSCLE user guide](https://www.drive5.com/muscle/muscle.html), running the two first iterations of the algorithm is "a good compromise between speed and accuracy."
 
-![SS3](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS3.png?raw=true)
+![SS3](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS3.png?raw=true)
 
 After the MUSCLE process is done, export the alignment file in **NEXUS format**, going to Data > Export Alignment > NEXUS/PAUP format.
 
-![SS4](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS4.png?raw=true)
+![SS4](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS4.png?raw=true)
 
 # Step 3: Add trait information
 
@@ -142,21 +142,21 @@ Once having a correctly formatted NEXUS file, network construction should be str
 
 Download and install PopArt following the instructions from their [official website](https://popart.maths.otago.ac.nz/download/). We need to load our modified NEXUS file clicking on the "NEX" button.
 
-![SS5](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS5.png?raw=true)
+![SS5](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS5.png?raw=true)
 
 > If you are unibale to load your file, make sure "Files of type:" option at the bottom of the window is set to "All Files(*)."
 
 After loading your NEXUS file, the information of traits and nucleotide sequences will be displayed on "Traits" and "Alignment" tabs.
 
-![SS6](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS6.png?raw=true)
+![SS6](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS6.png?raw=true)
 
 Now you can construct the network using the algorithm of your choice, clicking on network tab. I chose a Minimum Spanning Network with epsilon=0.
 
-![SS7](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS7.png?raw=true)
+![SS7](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS7.png?raw=true)
 
 To add trait color to the network, click on the dots icon on the menu and choose a color palette.
 
-![SS8](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/haplotype_network/SS8.png?raw=true)
+![SS8](https://github.com/dcsoto/dcsoto.github.io/blob/master/assets/img/2024-09-30-haplotype_network/SS8.png?raw=true)
 
 You can customize trait colors, vertex and edge colors and sizes, as well as labels in the "Edit" tab.
 
