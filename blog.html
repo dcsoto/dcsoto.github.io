@@ -3,6 +3,17 @@ layout: page
 title: Blog entries
 ---
 
+<h2>News</h2>
+
+<ul>
+  {% for post in site.tags.news %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
+
 <h2>Bioinformatics</h2>
 
 <ul>
