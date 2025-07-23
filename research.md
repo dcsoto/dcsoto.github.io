@@ -14,8 +14,8 @@ My research focuses on elucidating genetic and epigenetic changes contributing t
 
 Gene duplications are a key driver of evolutionary innovation. My doctoral and postdoctoral research centered on studying human-specific gene duplications, where I contributed to characterizing the epigenetic landscape and expression patterns of 75 duplicated genes across various human tissues. Then, I co-led a project conducting a comprehensive survey of recent human gene duplications, leveraging the first complete human genome. This work identified approximately 350 neurodevelopmental genes, highlighting two genes that increase brain size in zebrafish. Additionally, I contributed to characterizing a gene implicated as a human-specific modifier of neuronal excitability.
 
+* **Soto DC**†, Uribe-Salazar JM†, Kaya G, Valdarrago R, Sekar A, Haghani NK, et al. Human-specific gene expansions contribute to brain evolution. Cell. 2025. doi: 10.1016/j.cell.2025.06.037
 * Shew CJ, Carmona-Mora P, **Soto DC**, Mastoras M, Roberts E, Rosas J, et al. Diverse molecular mechanisms contribute to differential expression of human duplicated genes. Mol Biol Evol. 2021. doi:10.1093/molbev/msab131
-* **Soto DC**†, Uribe-Salazar JM†, Kaya G, Valdarrago R, Sekar A, Haghani NK, et al. Gene expansions contributing to human brain evolution. bioRxiv. 2024. doi:10.1101/2024.09.26.615256
 * Libé-Philippot B, Lejeune A, Wierda K, Louros N, Erkol E, Vlaeminck I, et al. LRRC37B is a human modifier of voltage-gated sodium channels and axon excitability in cortical neurons. Cell. 2023;186: 5766-5783.e25.
 
 **(2) Primate comparative genomics and epigenomics**
