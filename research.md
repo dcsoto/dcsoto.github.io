@@ -12,9 +12,10 @@ My research focuses on elucidating genetic and epigenetic changes contributing t
 
 **(1) Genetic and epigenetic changes contributing to human brain evolution**
 
-Gene duplications are a key driver of evolutionary innovation. My doctoral and postdoctoral research centered on studying human-specific gene duplications, where I contributed to characterizing the epigenetic landscape and expression patterns of 75 duplicated genes across various human tissues. Then, I co-led a project conducting a comprehensive survey of recent human gene duplications, leveraging the first complete human genome. This work identified approximately 350 neurodevelopmental genes, highlighting two genes that increase brain size in zebrafish. Additionally, I contributed to characterizing a gene implicated as a human-specific modifier of neuronal excitability.
+Gene duplications are a key driver of evolutionary innovation, but they are often misrepresented in references genomes. I co-led the characterization of segmentally duplicated regions across the first-ever complete human genome. Leveraging this complete human reference, I then co-led a comprehensive survey of recent human gene duplications. This work identified approximately 350 neurodevelopmental genes and highlighted two that increase brain size in zebrafish. I also helped characterize the epigenetic landscape and expression patterns of 75 duplicated genes across diverse human tissues. In addition, I contributed to characterizing a gene implicated as a human-specific modifier of neuronal excitability.
 
 * **Soto DC**†, Uribe-Salazar JM†, Kaya G, Valdarrago R, Sekar A, Haghani NK, et al. Human-specific gene expansions contribute to brain evolution. Cell. 2025. doi: 10.1016/j.cell.2025.06.037
+* Aganezov S†, Yan SM†, **Soto DC**†, Kirsche M†, Zarate S†, Avdeyev P, et al. A complete reference genome improves analysis of human genetic variation. Science. 2022.
 * Shew CJ, Carmona-Mora P, **Soto DC**, Mastoras M, Roberts E, Rosas J, et al. Diverse molecular mechanisms contribute to differential expression of human duplicated genes. Mol Biol Evol. 2021. doi:10.1093/molbev/msab131
 * Libé-Philippot B, Lejeune A, Wierda K, Louros N, Erkol E, Vlaeminck I, et al. LRRC37B is a human modifier of voltage-gated sodium channels and axon excitability in cortical neurons. Cell. 2023;186: 5766-5783.e25.
 
