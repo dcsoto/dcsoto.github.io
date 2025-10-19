@@ -26,7 +26,7 @@ To fully understand human evolution, comparative approaches across the great ape
 * **Soto DC**†, Shew CJ†, Mastoras M, Schmidt JM, Sahasrabudhe R, Kaya G, et al. Identification of Structural Variation in Chimpanzees Using Optical Mapping and Nanopore Sequencing. Genes. 2020;11: 276.
 * Ostridge HJ, Fontsere C, Lizano E, **Soto DC**, Schmidt JM, Saxena V, et al. Local genetic adaptation to habitat in wild chimpanzees. Science. 2025;387: eadn7954. doi:10.1126/science.adn7954
 
-**(3) The genetics of neuropsychiatric disorders**
+**(3) The genetics of neuropsychiatric and neurodevelopmental disorders**
 
 The evolution of the uniquely human brain has also given rise to neurodiversity, some of which contributes to neuropsychiatric and neurodevelopmental disorders. I have collaborated on several studies exploring the genetic basis of autism spectrum disorders and behavioral genetics, including the characterization of a structural variant associated with autism risk, the investigation of the epigenetic landscape of chromosome 15q11-q13 linked to Prader-Willi and Angelman syndromes, and the study of the genetics of behavior in rodents.
 
