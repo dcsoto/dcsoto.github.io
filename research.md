@@ -19,7 +19,7 @@ Gene duplications are a key driver of evolutionary innovation, but they are ofte
 * Shew CJ, Carmona-Mora P, **Soto DC**, Mastoras M, Roberts E, Rosas J, et al. Diverse molecular mechanisms contribute to differential expression of human duplicated genes. Mol Biol Evol. 2021. doi:10.1093/molbev/msab131
 * Libé-Philippot B, Lejeune A, Wierda K, Louros N, Erkol E, Vlaeminck I, et al. LRRC37B is a human modifier of voltage-gated sodium channels and axon excitability in cortical neurons. Cell. 2023;186: 5766-5783.e25.
 
-**(2) Primate comparative genomics and epigenomics**
+**(2) Primate complex structural variations**
 
 To fully understand human evolution, comparative approaches across the great apes—human, chimpanzee, gorilla, and orangutan—and other non-human primates are essential. Complex structural variation, a key contributor to primate evolution, has remained an underexplored source of species divergence due to the limitations of short-read sequencing technologies. By harnessing long-read sequencing, I have comprehensively identified novel complex genetic variants in chimpanzees and characterized a gene involved in local malaria adaptation among wild chimpanzee populations. Beyond genetic variation, the evolution of gene regulation is a major factor in phenotypic differences among primates. My current work focuses on gene expression evolution, using comparative neurogenomic approaches across primates spanning ~40 million years of evolutionary history.
 
