@@ -1,7 +1,59 @@
 ---
-layout: home
+layout: base
 title: Hi, I'm Dani
-subtitle: Engineer turned bioinformatician / Postdoctoral Scholar / Soojin Yi (UCSB) & Kirk Lohmueller (UCLA) labs
-cover-img:
-  - "/assets/img/ATCG.jpg" : "ONT long-reads"
+share-description: Engineer turned bioinformatician / Postdoctoral Scholar / Soojin Yi (UCSB) & Kirk Lohmueller (UCLA) labs
+share-img: /assets/img/ATCG.jpg
 ---
+
+<main class="dc-landing">
+
+  <header class="dc-hero">
+    <div class="dc-hero-text">
+      <p class="dc-eyebrow">Postdoctoral Scholar<br>Soojin Yi (UCSB) &amp; Kirk Lohmueller (UCLA) labs</p>
+      <h1 class="dc-h1">Hi, I'm <span class="dc-accent">Dani</span><img class="dc-wave" src="{{ '/assets/img/wave.svg' | relative_url }}" alt=""></h1>
+      <p class="dc-intro"><span class="dc-dropcap">E</span>ngineer turned bioinformatician. I study what makes the human brain unique by comparing it to other primates, and write about the tools that make that work possible.</p>
+    </div>
+    <div class="dc-portrait"><img src="{{ '/assets/img/avatar-icon.jpg' | relative_url }}" alt="Daniela C. Soto"></div>
+    <div class="dc-tags" aria-label="Research interests">
+      <span class="dc-topic dc-bg-blue">Human evolution</span>
+      <span class="dc-topic dc-bg-pink">Neurogenetics</span>
+      <span class="dc-topic dc-bg-mustard">Population genetics</span>
+      <span class="dc-topic dc-bg-cream">Structural variants</span>
+      <span class="dc-topic dc-bg-ink">Bioinformatics</span>
+    </div>
+  </header>
+
+  {% assign latest = site.posts.first %}
+  <section class="dc-section" style="padding-top:64px">
+    <h2 class="dc-h2">Latest</h2>
+    <a class="dc-card" href="{{ latest.url | relative_url }}">
+      <span>
+        <span class="dc-card-title">{{ latest.title }}</span>
+        {% if latest.subtitle %}<span class="dc-card-sub" style="display:block">{{ latest.subtitle }}</span>{% endif %}
+        <span class="dc-card-excerpt" style="display:block">{{ latest.excerpt | strip_html | truncatewords: 40 }}</span>
+      </span>
+      <span class="dc-card-meta">
+        <span style="display:flex;flex-direction:column;gap:4px;align-items:flex-end">
+          <span>{{ latest.date | date: site.date_format }}</span>
+          {% if latest.tags.size > 0 %}<span class="dc-tag">{{ latest.tags | first }}</span>{% endif %}
+        </span>
+        <span class="dc-arrow">→</span>
+      </span>
+    </a>
+  </section>
+
+  <section class="dc-section">
+    <h2 class="dc-h2"><span>From the blog</span><a href="{{ '/blog' | relative_url }}">All posts →</a></h2>
+    <div class="dc-bars">
+      {% for post in site.posts limit: 4 offset: 1 %}
+      <a class="dc-bar" href="{{ post.url | relative_url }}">
+        <span class="dc-bar-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span><span class="dc-bar-title">{{ post.title }}</span>{% if post.subtitle %}<span class="dc-bar-sub">{{ post.subtitle }}</span>{% endif %}</span>
+        <span class="dc-bar-arrow">→</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="dc-landing-footer"></div>
+</main>

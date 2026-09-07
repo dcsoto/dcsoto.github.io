@@ -1,46 +1,45 @@
 ---
 layout: page
-title: Blog entries
-subtitle: Archive of all blog posts
+title: Blog Entries
+subtitle: My writing about bioinformatics, data science and academia
 ---
 
-<h2>News</h2>
+<div class="bl-filters" id="bl-filters">
+  <a href="#" data-tag="all" class="is-active">All</a>
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}<a href="#" data-tag="{{ tag[0] }}">{{ tag[0] }}</a>{% endfor %}
+</div>
 
-<ul>
-  {% for post in site.tags.news %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
-    </li>
+<div class="bl-list" id="bl-list">
+  {% for post in site.posts %}
+  <a class="bl-card" href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: ' ' }}">
+    <span class="bl-meta">
+      <span class="bl-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if post.tags.size > 0 %}<span class="bl-tag">{{ post.tags | first }}</span>{% endif %}
+    </span>
+    <span>
+      <span class="bl-title">{{ post.title }}</span>
+      {% if post.subtitle %}<span class="bl-sub">{{ post.subtitle }}</span>{% endif %}
+      <span class="bl-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</span>
+    </span>
+    <span class="bl-arrow">→</span>
+  </a>
   {% endfor %}
-</ul>
+</div>
 
-
-<h2>Bioinformatics</h2>
-
-<ul>
-  {% for post in site.tags.bioinformatics %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
-
-<h2>Illustration</h2>
-
-<ul>
-  {% for post in site.tags.illustration %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
-
-<h2>Academia</h2>
-
-<ul>
-  {% for post in site.tags.academia %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
+<script>
+  (function () {
+    var filters = document.getElementById('bl-filters');
+    var cards = document.querySelectorAll('#bl-list .bl-card');
+    filters.addEventListener('click', function (e) {
+      var a = e.target.closest('a[data-tag]'); if (!a) return;
+      e.preventDefault();
+      var tag = a.getAttribute('data-tag');
+      filters.querySelectorAll('a').forEach(function (x) { x.classList.toggle('is-active', x === a); });
+      cards.forEach(function (c) {
+        var tags = (c.getAttribute('data-tags') || '').split(' ');
+        c.style.display = (tag === 'all' || tags.indexOf(tag) > -1) ? '' : 'none';
+      });
+    });
+  })();
+</script>
